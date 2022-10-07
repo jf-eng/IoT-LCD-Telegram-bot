@@ -13,6 +13,9 @@
 #define LCD_COLS 20
 #define LCD_ROWS 4
 
+// Change the following array to include verified user IDs
+String accepted_users[] = {"ENTER USER_ID 1 HERE", "ENTER USER_ID 2 HERE"};
+
 #define CHAR_LIMIT 80 // max chars that can be displayed on LCD
 
 bool verify_user(String user_id);
