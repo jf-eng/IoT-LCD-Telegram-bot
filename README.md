@@ -3,7 +3,8 @@ This is a simple weekend IoT project built using ESP8266 and an LCD display whic
 
 To prevent unwanted access to the LCD, only verified users will be able to gain access to the LCD. The Telegram bot first checks the User ID of the user accessing the bot and only allows changes to be made to the LCD if the user ID is a part of the predefined list of verified users.
 
-# Demo
+# Video Demo
+https://user-images.githubusercontent.com/71118461/194702755-98bcfc21-90b4-4829-a5ac-8f19166946df.mp4
 
 # Configuration
 All user configurations can be found in `config.h`.
